@@ -1,0 +1,16 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "A basic starter website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "next",
+    "build": "next build"
+  },
+  "author": "Brett Hayes",
+  "license": "MIT",
+  "dependencies": {
+    "muicss": "^0.9.3",
+    "next": "^1.0.2"
+  }
+}
