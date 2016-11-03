@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import css, {insertRule} from 'next/css';
+import {insertRule} from 'next/css';
 import {Container} from 'muicss/react';
 
 // Custom components
