@@ -1,4 +1,4 @@
-FROM node:6-slim
+FROM node:6.10.1-slim
 
 RUN mkdir /public
 
@@ -6,7 +6,9 @@ WORKDIR /public
 
 COPY . /public
 
-RUN cd /public; npm i; npm build;
+RUN cd /public
+RUN npm i
+RUN npm run build
 
 EXPOSE 3000
 
