@@ -1,11 +1,8 @@
 import React, {Component} from 'react';
-import {insertRule} from 'next/css';
 import {Container} from 'muicss/react';
 
 // Custom components
 import Header from '../components/header';
-
-insertRule('html, body {margin: 0, padding: 0}');
 
 const title = (
   <title>Home</title>
