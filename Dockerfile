@@ -6,7 +6,7 @@ WORKDIR /public
 
 COPY . /public
 
-RUN cd /public; npm i;
+RUN cd /public; npm i; npm build;
 
 EXPOSE 3000
 
